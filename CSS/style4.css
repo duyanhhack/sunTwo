@@ -1,0 +1,281 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+}
+
+body {
+    max-width: 1920px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+header {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    background-color: white;
+}
+.logo {
+    width: 20%;
+    height: 120px;
+    line-height: 120px;
+    text-align: left;
+    margin-left: 70px;
+    font-size: 25px;
+    color: #3bb77b;
+}
+.selector {
+    width: 20%;
+    height:120px;
+    line-height: 120px;
+    text-align: right;
+}
+.selector #giohang {
+    padding-right: 20px;
+}
+.selector #menu {
+    padding-left: 30px;
+    padding-right: 70px;
+}
+
+#big-img {
+    width: 1903px;
+}
+
+.menu {
+    width: 50%;
+    height: 120px;
+}
+.menu ul {
+    width: 60%;
+    list-style-type: none;
+    display: flex;
+    height: 120px;
+    align-items: center;
+    margin-left: 50px;
+}
+.menu ul li {
+    padding: 30px;
+}
+.menu ul li a {
+    color: #333333;
+    font-family: Arial;
+    font-size: 17px;
+}
+.menu ul li a:hover {
+    color: #3bb77b;
+}
+
+.container {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.ads-small {
+    display: flex;
+}
+
+.ads-small ul li {
+    width: 25%;
+    border-right: 2px solid white;
+}
+.ads-small ul li:last-child {
+    border: none;
+}
+
+.ads-big {
+    display: flex;
+    max-width: 1900px;
+    margin-left: 0px;
+}
+.ads-big img {
+    width: 634px;
+}
+
+.bestsell ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: 70px;
+    margin-right: 70px;
+    align-items: center;
+}
+.bestsell ul li {
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+}
+.bestsell ul li .view {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+    right: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.bestsell ul li:hover .view {
+    visibility: visible;
+}
+price {
+    color: #3bb77b;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.bestsell ul li p {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333333;
+}
+i {
+    font-family: Times New Roman;
+    color: #3bb77b;
+    font-size: 20px;
+}
+h2 {
+    font-size: 35px;
+}
+text {
+    display: block;
+    margin-top: 20px;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+.ads-small {
+    margin-top: 70px;
+}
+.ads-small ul {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 200px;
+}
+.ads-small ul li {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    display: block;
+    align-items: center;
+    background-color: #f5f6fa;
+}
+.ads-small ul li h3 {
+    margin-top: 25px;
+}
+.ads-small ul li img {
+    margin-top: 50px;
+}
+.ads-small ul li #return {
+    margin-top: 55px;
+}
+.ads-small ul li #rocket {
+    margin-top: 41px;
+}
+.ads-small ul li p {
+    margin-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #9a9a9a;
+}
+
+.product {
+    margin-top: 100px;
+}
+.intro {
+    text-align: center;
+}
+.product ul {
+    display: flex;
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
+    list-style-type: none;
+}
+.product ul li {
+    position: relative;
+}
+.product ul li .view {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+    right: 7px;
+    display: flex;
+    flex-direction: column;
+}
+.product ul li:hover .view {
+    visibility: visible;
+}
+.product ul li p {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333333;
+}
+
+footer {
+    display: flex;
+    height: 350px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.left {
+    background-image: url("../images/training/bgfooter.jpg");
+    width: 50%;
+    height: 300px;
+    text-align: center;
+    color: white;
+}
+.left h2 {
+    margin-top: 50px;
+    font-size: 30px;
+}
+.left p {
+    margin-top: 20px;
+    margin-bottom: 35px;
+    width: 70%;
+}
+.left form input {
+    border: 1px solid white;
+    padding: 12px;
+    min-width: 370px;
+    margin-right: 5px;
+}
+.left form button {
+    border: 1px solid #3bb77b;
+    background-color: #3bb77b;
+    color: white;
+    padding: 12px;
+    width: 195px;
+}
+.right {
+    width: 50%;
+    background-color: #f5f6fa;
+}
+.right ul {
+    height: 300px;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+.right ul li {
+    display: flex;
+    align-self: center;
+}
+
+.bottom {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: #000000;
+    color: #6b6b6b;
+    line-height: 50px;
+}
+.bottom img {
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
